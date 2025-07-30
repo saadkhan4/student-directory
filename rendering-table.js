@@ -11,7 +11,7 @@ function renderTable(id, data) {
   const th_row = document.createElement("tr");
   thead.appendChild(th_row);
 
-  // created table head
+  // created table body
   const tbody = document.createElement("tbody");
   table.appendChild(tbody);
 
